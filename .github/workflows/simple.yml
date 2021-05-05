@@ -6,9 +6,9 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
-        run: echo "Hello World"
-      - name: multiline script
+      - name: Echo A String
+        run: echvo "Hello World"
+      - name: Multiline Script
         run: |
           node -v
           python -V
